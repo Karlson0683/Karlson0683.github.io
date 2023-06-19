@@ -558,9 +558,12 @@ nav .fas{
     .header-text{
         
         font-size: 16px;
+        
        
         position: absolute;
-        margin-right:-130px;
+        margin-top: 450px;
+        margin-right: -100px;
+       
 
       
 
@@ -619,8 +622,9 @@ nav ul .fas{
 
 .about-col-2{
 
-    margin-left: 40px;
+    margin-left: 3px;
     font-size: 14px;
+    margin-right: 5px;
 
 
 }
