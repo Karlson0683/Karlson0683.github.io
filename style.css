@@ -544,6 +544,11 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
 
+    .about-col-1 img{
+        display:none;
+
+    }
+
     #header{
         background-image: url(images/uzky2.png);
         
@@ -553,7 +558,7 @@ nav .fas{
     .header-text{
         
         font-size: 16px;
-        margin-top: 600px;
+       
         position: absolute;
         margin-right:-130px;
 
@@ -607,10 +612,9 @@ nav ul .fas{
     
 }
 
-.about-col-1{
-    margin-bottom: 30px;
+
    
-}
+
 
 
 .about-col-2{
@@ -655,19 +659,14 @@ nav ul .fas{
 }
 
 
-.about-col-1 img{
-    height: 600px;
-
-    
-    border-radius: 15px;
-    margin-top: -50px;
-    margin-left: 128px;
 
 
-}
+
+
 
 #portfolio{
-    margin-top: -90px;
+    margin-top: -160px;
+    
 
 }
 #contact{
@@ -677,5 +676,6 @@ nav ul .fas{
 .contact-right{
     margin-top: 30px;
 }
+
 
 }
