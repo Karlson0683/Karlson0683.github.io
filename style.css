@@ -117,13 +117,13 @@ nav ul li a:hover::after{
 
 }
 
-.about-col-1{
+
 
    
     .about-col-1{
 
         flex-basis: 35%;
-        padding-top: 10px;
+        padding-top: 110px;
        
     
     }
@@ -131,7 +131,7 @@ nav ul li a:hover::after{
     
     
     .about-col-1 img{
-        height: 500px;
+        height: 700px;
         
         border-radius: 15px;
       
