@@ -119,16 +119,22 @@ nav ul li a:hover::after{
 
 
 
-   
-    .about-col-1{
 
+
+
+
+
+   
+    .about-col-1{  
         flex-basis: 35%;
         padding-top: 110px;
        
     
     }
+
+       
     
-    
+  
     
     .about-col-1 img{
         height: 700px;
@@ -139,9 +145,21 @@ nav ul li a:hover::after{
     
     border-radius: 15px;
   
-    
+}
 
+.about-col-2 img{
+    display:none;
+
+}
     
+  .about-col-2 img{
+        height: 700px;
+        
+        border-radius: 15px;
+      
+   
+    
+    border-radius: 15px;
 
 }
 
@@ -552,10 +570,9 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
 
-    .about-col-1, .about-col-2{
+    .about-col-1 img{
+        display:none;
 
-        flex-basis: 100%;
-        
     }
 
     #header{
@@ -618,10 +635,27 @@ nav ul .fas{
     font-size: 40px;
 
 }
+.about-col-1, .about-col-2{
+
+    flex-basis: 100%;
+    
+}
+
+
+.about-col-2 img{
+    display: block;
+    height: 650px;
+    
+    border-radius: 15px;
+    margin-left: -60px;
+  
 
 
 
-   
+
+}
+
+ 
 
 
 
