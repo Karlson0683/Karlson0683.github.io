@@ -617,6 +617,8 @@ nav ul .fas{
     font-size: 40px;
 
 }
+
+
 .about-col-1, .about-col-2{
 
     flex-basis: 100%;
@@ -624,7 +626,20 @@ nav ul .fas{
 }
 
 
-   
+.about-col-1 img{
+    height: 700px;
+    
+    border-radius: 15px;
+  
+
+
+border-radius: 15px;
+
+
+
+
+
+}   
 
 
 
